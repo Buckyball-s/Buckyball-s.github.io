@@ -1,3 +1,4 @@
+document.body.requestFullscreen();
 let datasheet=[
     {
         "date": "Sep 5 - 12 Sep",
