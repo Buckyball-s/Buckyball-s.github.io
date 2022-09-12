@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Uber';
+    src: url('fonts/UberMoveMedium.otf') format('otf'),
+        url('fonts/UberMoveMedium.woff') format('woff');
+}
+
+body{
+    background:#1a1b1a;
+    color: white;
+    font-family: 'Uber';
+    font-size: 6.5vw;
+    margin: 0;
+}
+
+header
+{
+    margin: 0;
+    margin-bottom: 0;
+    height: 15%;
+    display:
+    flex;
+    flex-direction:
+    column;
+}
+
+header img{
+    /* aspect-ratio: 1; */
+    /* size: 6vw; */
+    /* margin-left: 1%; */
+    /* margin-top: 2%; */
+    /* position: absolute; */
+    /* margin: 0; */
+    /* top: 30%; */
+    /* LEFT: 4%; */
+    /* image-orientation: unset; */
+    width: 5.3%;
+    height: auto;
+    position: absolute;
+    top: 2%;
+    left: 4%;
+    }
+
+header p{
+    margin-left: 4%;
+    margin-top: 10%;
+    margin-bottom: 1%;
+}
+ul{
+    margin: 0;
+    padding:0;
+    /* font-size: 4.6vw; */
+}
+#days{
+    background:#212020;
+    display:
+    flex;
+    font-size: 2.2vw;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#days h2{
+    font-size: 4vw;
+    font-weight:
+    normal;
+    margin-left: 4%;
+}
+
+#days p{
+    font-size: 4vw;
+    letter-spacing: 2.4vw;
+    margin-right: 4.3%;
+}
+
+li{
+ height: 8vh;
+ width: 100%;
+ display:
+ flex;
+ justify-content: space-between;
+ background-image: url("background bar.png");
+ background-repeat: repeat-x;
+ background-position: 18% 100%;
+ margin-bottom: 1%;
+}
+
+.hours{
+    display:
+    flex;
+    width: 55%;
+    margin-right: 11.2%;
+    column-gap: 4.9%;
+}
+
+.day{
+    display:
+    flex;
+    flex-direction:
+    column;
+    width: 12%;
+    justify-content: flex-end;
+}
+
+.day p{
+    margin:0;
+    padding:0;
+    position: relative;
+    left: 37.6%;
+    font-size: 3.2vw;
+}
+.day div{
+ height: 75%;
+ background: #266ef1;
+}
+
+.date{
+    font-size: 3.6vw;
+    color: grey;
+}
+
+.earnings{
+    font-size: 4.3vw;
+    position: relative;
+    bottom: 26%;
+}
+
+li div{
+ position: relative;
+ left: 4%;
+}
